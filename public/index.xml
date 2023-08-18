@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CBC</title>
+    <link>https://www.example.com/</link>
+    <description>Recent content on CBC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>contact us</title>
+      <link>https://www.example.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/contact/</guid>
+      <description>Do not hesitate to contact Cross Border China today via jeremy@crossborderchina.nl to see what we can do for your integration in the European market!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.example.com/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://www.example.com/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://www.example.com/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://www.example.com/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://www.example.com/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/post/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://www.example.com/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/post/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.example.com/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/about/</guid>
+      <description>Many Chinese companies dream about successfully expanding their business overseas, particularly in established markets such as Europe and the United States.</description>
+    </item>
+    
+    <item>
+      <title> About the owner </title>
+      <link>https://www.example.com/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/team/</guid>
+      <description>Mr. A. Jeremy van der Velden LL.M. is an alumni of Leiden University (Netherlands) and has been working as an established consultant for more than 10 years.</description>
+    </item>
+    
+    <item>
+      <title>Business in Europe (exploring the European market)</title>
+      <link>https://www.example.com/businessineurope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/businessineurope/</guid>
+      <description>Many Chinese companies dream about successfully expanding their business overseas, particularly in established markets such as Europe and the United States.</description>
+    </item>
+    
+    <item>
+      <title>Business planning</title>
+      <link>https://www.example.com/planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/planning/</guid>
+      <description>The Chinese market is highly competitive and Chinese companies continuously need to adapt in order to stay in business. In contrast, CBC has experienced that Chinese companies taking their business overseas do not always succeed adjusting their business culture to the European market, leading to the loss of important opportunities.</description>
+    </item>
+    
+    <item>
+      <title>Communication</title>
+      <link>https://www.example.com/communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/communication/</guid>
+      <description>Communication is key for any enterprise operating internationally. CBC has experienced that, even though business partners speak the same language, communication can nevertheless still be challenging.</description>
+    </item>
+    
+    <item>
+      <title>fees</title>
+      <link>https://www.example.com/fees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/fees/</guid>
+      <description>Starting a cooperation with a local consultant doesn’t need to be expensive. Established firms, such as Houthoff Buruma (legal) or KPGM, are reliable partners.</description>
+    </item>
+    
+    <item>
+      <title>Getting started: setting up an overseas branch</title>
+      <link>https://www.example.com/gettingstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/gettingstarted/</guid>
+      <description>Setting up an overseas branch in the Netherlands is no walk in the park. Like in any other place, there are various rules to follow.</description>
+    </item>
+    
+    <item>
+      <title>Legal support services</title>
+      <link>https://www.example.com/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/legal/</guid>
+      <description>Because of CBC’s extensive experience in advising and consulting companies in- and outside China, CBC knows what legal challenges you might come across.</description>
+    </item>
+    
+    <item>
+      <title>Partners</title>
+      <link>https://www.example.com/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/partners/</guid>
+      <description>CBC is an established brand when it comes to advising about law and operating internationally. CBC has worked together with the following top-tier companies in and outside of China.</description>
+    </item>
+    
+    <item>
+      <title>The Netherlands and its business climate</title>
+      <link>https://www.example.com/netherlands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/netherlands/</guid>
+      <description>The Netherlands is a located in western Europe and has recently become more popular amongst Chinese enterprises developing business in Europe.</description>
+    </item>
+    
+    <item>
+      <title>workshops</title>
+      <link>https://www.example.com/workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/workshop/</guid>
+      <description>Because making the first steps is always hard, CBC offers workshops in both China and the Netherlands to introduce you to entering the European market.</description>
+    </item>
+    
+  </channel>
+</rss>
