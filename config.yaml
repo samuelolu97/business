@@ -1,0 +1,91 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "CBC"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "CBC"
+  description: "Cross Border China (CBC) can help you to overcome your business challenges and accompany you during your (first) steps in Europe, starting from the Netherlands."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "3891 Ranchview Dr. Richardson, California 62639"
+    - "4517 Washington Ave. Manchester, Kentucky 39495"
+
+  contact:
+    - " jeremy@crossborderchina.nl"
+    - "xxx.xxx.xxx"
+
+  copyright: "© 2023 cross-border-china All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "About"
+      url: "/about"
+      weight: 2
+
+    - name: "Team"
+      url: "/team"
+      weight: 3
+
+    - name: "Contact"
+      url: "/contact"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Get a quote"
+      url: "/contact"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+    - name: "How we work"
+      url: "/about"
+      weight: 2
+
+    - name: "Our team"
+      url: "/team"
+      weight: 3
+
+    - name: "Contact"
+      url: "/contact"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"

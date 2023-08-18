@@ -1,0 +1,28 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Our main services"
+  text: "Cross Border China (CBC) can help you to overcome your business challenges and accompany you during your (first) steps in Europe, starting from the Netherlands."
+  cards:
+    - image: "images/svg12.png"
+      title: "Business Planning"
+      text: " CBC has experienced that Chinese companies taking their business overseas do not always succeed adjusting their business culture to the European market, leading to the loss of important opportunities.  "
+      button:
+        label: "Learn more"
+        url: "planning"
+
+    - image: "images/svg13.png"
+      title: "Legal support services"
+      text: "Because of CBC’s extensive experience in advising and consulting companies in- and outside China, CBC knows what legal challenges you might come across.
+ "
+      button:
+        label: "Learn more"
+        url: "legal"
+
+    - image: "images/svg14.png"
+      title: "Workshops"
+      text: "Workshops are an efficient and informative way to cover topics such as ‘first steps’, ‘legal dimensions’,’overseas branding’,’finding the right partners’, and so on. Of course, custom made solutions are always possible."
+      button:
+        label: "Learn more"
+        url: "workshop"

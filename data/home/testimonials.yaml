@@ -1,0 +1,21 @@
+enabled: true
+id: "testimonials"
+
+content:
+  title: "Testimonials"
+
+  featured:
+    image: "images/svg15.png"
+    text: " CBC provides the best services for chinese business needs.I highly recommend"
+    client: "Anonymous Customer"
+
+  list:
+    - text: "They are the best at what they do, I look forward to working with them again"
+      client: "Anonymous Customer"
+
+    - text: "They provide excellent services, Great value for money "
+      client: "Anonymous Customer"
+
+
+    - text: "They provide excellent services, Great expereinece "
+      client: "Anonymous Customer"
