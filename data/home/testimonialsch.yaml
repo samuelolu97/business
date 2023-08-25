@@ -6,16 +6,16 @@ content:
 
   featured:
     image: "images/svg15.png"
-    text: " CBC provides the best services for chinese business needs.I highly recommend"
-    client: "Anonymous Customer"
+    text: "我低估了我的海外业务面临的挑战有多大。 Jeremy知道要注意什么，这样我们就可以专注于我们最擅长的事情：销售我们的产品。"
+    client: "匿名客户"
 
   list:
-    - text: "They are the best at what they do, I look forward to working with them again"
-      client: "Anonymous Customer"
+    - text: "Jeremy的经验对我们公司有很大的帮助。"
+      client: "匿名客户"
 
-    - text: "They provide excellent services, Great value for money "
-      client: "Anonymous Customer"
+    - text: " 法律问题总是很难处理。 CBC的坚决表现总是帮助我们重新站起来"
+      client: "匿名客户"
 
 
-    - text: "They provide excellent services, Great expereinece "
-      client: "Anonymous Customer"
+    - text: "我低估了我的海外业务面临的挑战有多大。 Jeremy知道要注意什么，这样我们就可以专注于我们最擅长的事情：销售我们的产品。 "
+      client: "匿名客户"

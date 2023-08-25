@@ -38,3 +38,14 @@ other ="地点"
 [footercontact]
 
 other = "联系我们"
+
+
+[footerlocationitem]
+
+other ="CBC位于荷兰鹿特丹市中心"
+
+
+
+[footerreserve]
+
+other = " 版权所有 "

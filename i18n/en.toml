@@ -35,7 +35,16 @@ other = " About Us"
 
 other =" Location "
 
+[footerlocationitem]
+
+other ="CBC is located in the center of Rotterdam, the Netherlands"
+
 [footercontact]
 
 other = " Contact Us"
+
+
+[footerreserve]
+
+other = " © 2023 cross-border-china All Rights Reserved "
 

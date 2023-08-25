@@ -6,16 +6,16 @@ content:
 
   featured:
     image: "images/svg15.png"
-    text: " CBC provides the best services for chinese business needs.I highly recommend"
+    text: "Jeremy's experience has been a great help for our company."
     client: "Anonymous Customer"
 
   list:
-    - text: "They are the best at what they do, I look forward to working with them again"
+    - text: " Legal matters are always hard to deal with. CBC's resolute performance always helps us getting back on our feet."
       client: "Anonymous Customer"
 
-    - text: "They provide excellent services, Great value for money "
+    - text: " I underestimated how big the challenges were taking my business overseas. Jeremy knows what to pay attention to so we can focus on what we do best: selling our products. "
       client: "Anonymous Customer"
 
 
-    - text: "They provide excellent services, Great expereinece "
-      client: "Anonymous Customer"
+    - text: "Jeremy provides excellent services, Great expereinece "
+      client: "Anonymous Customer"  
