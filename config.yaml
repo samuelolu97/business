@@ -55,9 +55,9 @@ menus:
       url: "/contact"
       weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
 
   buttons:
     - name: "Get a quote"
@@ -82,10 +82,127 @@ menus:
       url: "/contact"
       weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
 
 taxonomies:
   series: "series"
   tags: "tags"
+
+
+DefaultContentLanguage: ch
+
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    title: Cross Border China
+    languageName: Eng
+    weight: 1
+    contentDir: "content/en"
+    menus:
+        main:
+           - name: "Home"
+             url: "/#hero"
+             weight: 1
+          
+           - name: "About"
+             url: "/about"
+             weight: 2
+
+           - name: "Team"
+             url: "/team"
+             weight: 3
+
+           - name: "Contact"
+             url: "/contact"
+             weight: 4
+
+          #  - name: "Blog"
+          #    url: "/blog"
+          #    weight: 5
+          
+        buttons:
+            - name: "Get a quote"
+              url: "/contact"
+              weight: 5
+              pre: "btn btn-primary text-light"
+
+        
+        footer:
+           - name: "Home"
+             url: "/"
+             weight: 1
+
+           - name: "How we work"
+             url: "/about"
+             weight: 2
+
+           - name: "Our team"
+             url: "/team"
+             weight: 3
+  
+           - name: "Contact"
+             url: "/contact"
+             weight: 4
+
+          #  - name: "Blog"
+          #    url: "/blog"
+          #    weight: 5
+    
+  ch:
+    title: Cross Border China
+    languageName: ch
+    weight: 2
+    contentDir: "content/ch"
+    menus:
+        main:
+           - name: "家"
+             url: "/"
+             weight: 1
+          
+           - name: "关于"
+             url: "/about"
+             weight: 2
+
+           - name: "团队"
+             url: "/team"
+             weight: 3
+
+           - name: "接触"
+             url: "/contact"
+             weight: 4
+
+           - name: "博客"
+             url: "/blog"
+             weight: 5
+
+        buttons:
+            - name: " 获取报价"
+              url: "/contact"
+              weight: 5
+              pre: "btn btn-primary text-light"
+
+        footer:
+           - name:  "家"
+             url: "/"
+             weight: 1
+
+           - name:  "关于"
+             url: "/about"
+             weight: 2
+
+           - name: "团队"
+             url: "/team"
+             weight: 3
+  
+           - name: "接触"
+             url: "/contact"
+             weight: 4
+
+           - name: "博客"
+             url: "/blog"
+             weight: 5
+
+

@@ -1,0 +1,32 @@
+enabled: true
+id: "services"
+
+content:
+  title: "我们的主要服务"
+  text: "Cross Border China (CBC) can help you to overcome your business challenges and accompany you during your (first) steps in Europe, starting from the Netherlands."
+  cards:
+    - image: "images/svg12.png"
+      title: "商业规划"
+      text: "中国市场竞争激烈，因而企业需要不断调整自身以适应快速变化的市场。然而，CBC发现，在欧洲的中国企业并不总能根据新的市场环境调整其企业文化，往往导致重要商机的流失。与中国不同，在欧洲开展业务更需要的是良好的商业规划和静待时机的耐心"
+      button:
+        label: "了解更多"
+        url: "planning"
+
+    - image: "images/svg13.png"
+      title: "法律支持"
+      text: "CBC在为中国内外的企业提供咨询和顾问服务方面具有丰富经验，充分了解您可能存在哪些法律风险。
+在欧洲市场销售产品，对当地产品和消费者相关法律的基本了解至关重要。
+创业者面临的其他问题涉及劳动法（当地最低工资、法定工作条件）您是否考虑根据当地的法律框架起草您的一般条款和条件等等。CBC丰富的法律经验可以帮助您避免可能发生的法律风险。
+"
+      button:
+        label: "了解更多"
+        url: "legal"
+
+    - image: "images/svg14.png"
+      title: "研讨会"
+      text: "迈出第一步总是困难的，CBC在中国和荷兰都会举办研讨会，提供进入如何欧洲市场的相关介绍。
+研讨会是一种高效而信息丰富的方式，涵盖了“第一步”、“法律维度”、“海外品牌推广”、“寻找合适的合作伙伴”等主题，也可以提供定制化的解决方案。
+"
+      button:
+        label: "了解更多"
+        url: "workshop"

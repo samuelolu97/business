@@ -1,0 +1,12 @@
+enabled: true
+id: "brands"
+
+content:
+  title: " CBC 受到以下商业伙伴的推荐 "
+  items:
+    - "images/xpeng.png"
+    - "images/byd.png"
+    - "images/lgmg.png"
+    - "images/pai.png"
+    - "images/huawei4.png"
+ 

@@ -2,10 +2,11 @@ enabled: true
 id: "brands"
 
 content:
-  title: "We work with customers brands and startups "
+  title: " CBC is recommended by the following partners "
   items:
     - "images/xpeng.png"
     - "images/byd.png"
     - "images/lgmg.png"
     - "images/pai.png"
-    - "images/xpeng.png"
+    - "images/huawei4.png"
+ 
