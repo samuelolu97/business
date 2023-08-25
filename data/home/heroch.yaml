@@ -3,7 +3,7 @@ id: "hero"
 
 content:
   title: "如何有效拓展海外业务?"
-  text: "Cross Border China (CBC) can help you to overcome your business challenges and accompany you during your (first) steps in Europe, starting from the Netherlands.We help develop and grow cross border chinese businesses"
+  text: "Cross Border China (CBC) 可以帮助您克服业务挑战，并陪伴您从荷兰开始踏上欧洲的第一步。 我们帮助您开发和发展您的跨境业务"
   buttonPrimary:
     label: "我们如何工作"
     url: "about"
