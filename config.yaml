@@ -57,18 +57,22 @@ languages:
            - name: "Home"
              url: "/#hero"
              weight: 1
+
+           - name: "Services"
+             url: "/services"
+             weight: 2
           
            - name: "About"
              url: "/about"
-             weight: 2
+             weight: 3
 
            - name: "Team"
              url: "/team"
-             weight: 3
+             weight: 4
 
            - name: "Contact"
              url: "/contact"
-             weight: 4
+             weight: 5
 
           #  - name: "Blog"
           #    url: "/blog"
@@ -86,17 +90,21 @@ languages:
              url: "/"
              weight: 1
 
+           - name: "Services"
+             url: "/services"
+             weight: 2
+
            - name: "How we work"
              url: "/about"
-             weight: 2
+             weight: 3
 
            - name: "Our team"
              url: "/team"
-             weight: 3
+             weight: 4
   
            - name: "Contact"
              url: "/contact"
-             weight: 4
+             weight: 5
 
           #  - name: "Blog"
           #    url: "/blog"
@@ -112,18 +120,22 @@ languages:
            - name: "家"
              url: "/"
              weight: 1
+
+           - name: "服务"
+             url: "/services"
+             weight: 2
           
            - name: "关于"
              url: "/about"
-             weight: 2
+             weight: 3
 
            - name: "团队"
              url: "/team"
-             weight: 3
+             weight: 4
 
            - name: "接触"
              url: "/contact"
-             weight: 4
+             weight: 5
 
           #  - name: "博客"
           #    url: "/blog"
@@ -140,17 +152,21 @@ languages:
              url: "/"
              weight: 1
 
+           - name: "服务"
+             url: "/services"
+             weight: 2
+
            - name:  "关于"
              url: "/about"
-             weight: 2
+             weight: 3
 
            - name: "团队"
              url: "/team"
-             weight: 3
+             weight: 4
   
            - name: "接触"
              url: "/contact"
-             weight: 4
+             weight: 5
 
         
 

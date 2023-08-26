@@ -2,8 +2,7 @@
 title: '
 关于我们
 '
-
-layout : "aboutlayout"
+layout : "aboutowner"
 
 ---
 

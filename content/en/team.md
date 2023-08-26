@@ -2,7 +2,7 @@
 title: '
 About the owner
 '
-layout : "aboutlayout"
+layout : "aboutowner"
 
 ---
 
