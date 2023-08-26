@@ -1,5 +1,5 @@
 ---
-title: 'fees'
+title: 'Fees'
 layout: "sectionlayout"
 image: "images/business3.jpg"
 

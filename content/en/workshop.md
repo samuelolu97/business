@@ -1,5 +1,5 @@
 ---
-title: 'workshops'
+title: 'Workshops'
 layout: "sectionlayout"
 image: "images/business3.jpg"
 
