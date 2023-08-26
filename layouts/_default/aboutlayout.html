@@ -1,22 +1,21 @@
 {{ define "main" }}
-
-
-  <section class="section blog-single py-5">
-    <div class="container">
-      <div class="row justify-content-center pb-5">
-        <div class="col-12 text-10">
-          {{ with .Title }}
-            <h2 class="display-6 fw-bold text-center text-tertiary pb-3">{{ . }}</h2>
-          {{ end }}
-          {{ with .Params.description }}
-            <p class="text-black-10 text-center pb-3">{{ . }}</p>
-          {{ end }}
-        </div>
+  
+<section class="section hero py-5 "  data-animation="zoomIn" data-animation-delay="300ms">
+    {{ with .Title }}
+    <h3 class=" container text-center hero-title fw-bold display-6 text-tertiary text-center pb-4">{{ . | markdownify }}</h3>
+  {{ end }}
+  <div class="container bg-red-500">
+    {{ with .Params.description }}
+    <p class="text-black-10 text-center pb-5">{{ . }}</p>
+  {{ end }}
+    <div class="row flex-column flex-xl-row-reverse">
+      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
+        {{ partial "utilities/image-fluid" "images/svg4.png" }}
       </div>
-
-      <div class="row pb-5">
-        <div class="col-12 d-flex justify-content-center">
-          <div class="blog-content fs-6 text-muted lh-base">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+       
+        
+        <div class="blog-content fs-6 text-muted lh-base">
             {{ .Content }}
             
             {{ with .Params.image }}
@@ -24,12 +23,14 @@
           {{ end }}
            
           </div>
-        </div>
-      </div>
-      <div class="row pb-5">
+      
       </div>
     </div>
-  </section>
+  </div>
+  
+</section>
+
+  
 
   {{ if eq .Site.Language.Lang "en" }}
 

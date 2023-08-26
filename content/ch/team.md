@@ -3,6 +3,8 @@ title: '
 关于我们
 '
 
+layout : "aboutlayout"
+
 ---
 
 A. Jeremy van der Velden先生是莱顿大学（荷兰）的校友，拥有超过10年的资深顾问工作经验。
