@@ -1,0 +1,51 @@
+{{ define "main" }}
+  <section class="section blog-single py-5">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 text-10">
+          {{ with .Title }}
+            <h2 class="display-6 fw-bold text-center text-tertiary pb-3">{{ . }}</h2>
+          {{ end }}
+          {{ with .Params.description }}
+            <p class="text-black-10 text-center pb-3">{{ . }}</p>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="blog-content fs-6 text-muted lh-base">
+            {{ .Content }}
+            
+            {{ with .Params.image }}
+            {{ partial "utilities/image-fluid.html" . }}
+          {{ end }}
+           
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5">
+      </div>
+    </div>
+  </section>
+
+  {{ if eq .Site.Language.Lang "en" }}
+
+  {{ with .Site.Data.home.brands }}{{ partial "sections/brands.html" . }}{{ end }}        
+  <!-- {{ with .Site.Data.home.services }}{{ partial "sections/services.html" . }}{{ end }}
+  {{ with .Site.Data.home.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }} -->
+  <!-- {{ with .Site.Data.home.cta }}{{ partial "sections/cta.html" . }}{{ end }} -->
+
+  {{ else }}
+     
+  {{ with .Site.Data.home.brandsch }}{{ partial "sections/brands.html" . }}{{ end }}         
+  <!-- {{ with .Site.Data.home.servicesch }}{{ partial "sections/services.html" . }}{{ end }}
+  {{ with .Site.Data.home.testimonialsch }}{{ partial "sections/testimonials.html" . }}{{ end }} -->
+  <!-- {{ with .Site.Data.home.ctach }}{{ partial "sections/cta.html" . }}{{ end }} -->
+
+  {{ end }}
+
+
+
+ 
+{{ end }}

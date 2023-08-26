@@ -2,6 +2,7 @@
 title: '联系我们'
 button: 'About us'
 weight: 2
+layout: "contactlayout"
 ---
 
 
