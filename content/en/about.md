@@ -1,6 +1,6 @@
 +++
 title = "How to take your business to the next level"
-description = "How to level up your Chinese business"
+description = ""
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
