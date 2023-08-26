@@ -4,7 +4,7 @@
       <div class="row justify-content-center pb-5">
         <div class="col-12">
           {{ with .Title }}
-            <h6 class="display-1 fw-bold text-center text-tertiary pb-3">{{ . }}</h6>
+            <h6 class="display-6 fw-bold text-center text-tertiary pb-3">{{ . }} </h6>
           {{ end }}
           {{ with .Params.description }}
             <p class="text-black-61 text-center text-primary pb-3">{{ . }}</p>
@@ -13,7 +13,7 @@
       </div>
       <div class="row pb-5">
         <div class="col-12 d-flex justify-content-center">
-          <div class="blog-content fs-6">
+          <div class="blog-content fs-6 text-muted lh-base">
             {{ .Content }}
           </div>
         </div>
@@ -27,15 +27,15 @@
   {{ if eq .Site.Language.Lang "en" }}
 
   {{ with .Site.Data.home.brands }}{{ partial "sections/brands.html" . }}{{ end }}        
-  {{ with .Site.Data.home.services }}{{ partial "sections/services.html" . }}{{ end }}
-  {{ with .Site.Data.home.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }}
+  <!-- {{ with .Site.Data.home.services }}{{ partial "sections/services.html" . }}{{ end }}
+  {{ with .Site.Data.home.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }} -->
   {{ with .Site.Data.home.cta }}{{ partial "sections/cta.html" . }}{{ end }}
 
   {{ else }}
      
   {{ with .Site.Data.home.brandsch }}{{ partial "sections/brands.html" . }}{{ end }}         
-  {{ with .Site.Data.home.servicesch }}{{ partial "sections/services.html" . }}{{ end }}
-  {{ with .Site.Data.home.testimonialsch }}{{ partial "sections/testimonials.html" . }}{{ end }}
+  <!-- {{ with .Site.Data.home.servicesch }}{{ partial "sections/services.html" . }}{{ end }}
+  {{ with .Site.Data.home.testimonialsch }}{{ partial "sections/testimonials.html" . }}{{ end }} -->
   {{ with .Site.Data.home.ctach }}{{ partial "sections/cta.html" . }}{{ end }}
 
   {{ end }}

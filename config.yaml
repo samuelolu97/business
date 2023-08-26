@@ -1,6 +1,6 @@
 baseURL: "/"
 theme: "up-business-theme"
-languageCode: "en-us"
+
 
 title: "CBC"
 
@@ -14,7 +14,7 @@ params:
   images: 
     - "images/hero-image.png"
 
-  logo: "arrow-up.png"
+
 
   favicons:
     themeColor: "#FFFFFF"
@@ -37,55 +37,6 @@ params:
 
   copyright: "© 2023 cross-border-china All Rights Reserved"
 
-menus:
-  main:
-    - name: "Home"
-      url: "/#hero"
-      weight: 1
-
-    - name: "About"
-      url: "/about"
-      weight: 2
-
-    - name: "Team"
-      url: "/team"
-      weight: 3
-
-    - name: "Contact"
-      url: "/contact"
-      weight: 4
-
-    # - name: "Blog"
-    #   url: "/blog"
-    #   weight: 5
-
-  buttons:
-    - name: "Get a quote"
-      url: "/contact"
-      weight: 5
-      pre: "btn btn-primary text-light"
-
-  footer:
-    - name: "Home"
-      url: "/"
-      weight: 1
-
-    - name: "How we work"
-      url: "/about"
-      weight: 2
-
-    - name: "Our team"
-      url: "/team"
-      weight: 3
-
-    - name: "Contact"
-      url: "/contact"
-      weight: 4
-
-    # - name: "Blog"
-    #   url: "/blog"
-    #   weight: 5
-
 taxonomies:
   series: "series"
   tags: "tags"
@@ -93,7 +44,7 @@ taxonomies:
 
 DefaultContentLanguage: ch
 
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 
 languages:
   en:
@@ -174,9 +125,9 @@ languages:
              url: "/contact"
              weight: 4
 
-           - name: "博客"
-             url: "/blog"
-             weight: 5
+          #  - name: "博客"
+          #    url: "/blog"
+          #    weight: 5
 
         buttons:
             - name: " 获取报价"
@@ -201,8 +152,6 @@ languages:
              url: "/contact"
              weight: 4
 
-           - name: "博客"
-             url: "/blog"
-             weight: 5
+        
 
 

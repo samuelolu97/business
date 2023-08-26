@@ -4,6 +4,7 @@ description = "欧洲商业环境（探索欧洲市场）"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
+layout = "aboutlayout"
 +++
 
 

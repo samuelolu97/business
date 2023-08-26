@@ -3,7 +3,8 @@ id: "services"
 
 content:
   title: "我们的主要服务"
-  text: "Cross Border China (CBC) can help you to overcome your business challenges and accompany you during your (first) steps in Europe, starting from the Netherlands."
+  text: "  Cross Border China (CBC) 可以帮助您客服业务挑战， 并陪伴您从荷兰开始踏上欧洲的第一步
+"
   cards:
     - image: "images/svg12.png"
       title: "商业规划"

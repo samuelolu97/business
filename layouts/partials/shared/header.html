@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-xl navbar-light bg-light py-4 w-100">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="{{ .Site.BaseURL }}">
-      {{ partial "utilities/image.html" "images/logo.png" }}
+    <a class="navbar-brand d-flex align-items-center" href="{{ absLangURL "" }} ">
+      <!-- {{ partial "utilities/image.html" "images/logo.png" }} -->
       <span class="fs-5 fw-semibold text-uppercase text-primary">{{ .Site.Title }}</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,10 +11,22 @@
       <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
         {{ range .Site.Menus.main }}
           <li class="nav-item text-center">
-            <a class="nav-link text-tertiary px-4" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-link text-tertiary px-4" href="{{.URL | absLangURL}}">{{ .Name }}</a>
           </li>
         {{ end }}
       
+
+        <!-- {{ with .Translations }}
+        <nav class="language-switcher">
+          {{ range . }}
+            {{ if eq .Language.Lang $.Language.Lang }}
+              <a class="active" aria-current="page" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+            {{ else }}
+              <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
+          {{ end }}
+        </nav>
+      {{ end }} -->
 
       
           {{ if .IsTranslated }}
@@ -22,10 +34,10 @@
               {{/* .Site.Language.Lang */}}
               {{ if eq .Site.Language.Lang "en" }}
                 {{ $imgpath := "assets/images/engflag.png" }}
-                <li class="nav-item text-center" ><a title="English" class="nav-link text-primary px-4" href="{{ .RelPermalink }}"> {{ partial "utilities/imageflag.html" "images/engflag.png" }}</a></li>
+                <li class="nav-item text-center" ><a title="English" hreflang="{{ .Lang }}" class="nav-link text-primary px-4" href="{{ .RelPermalink }}"> {{ partial "utilities/imageflag.html" "images/engflag.png" }}</a></li>
               {{ else }}
                 {{ $imgpath := "assets/images/chineseflag.jpg" }}
-                <li class="nav-item text-center"><a title="chinese" class="nav-link text-primary px-4" href="{{ .RelPermalink }}">{{ partial "utilities/imageflag.html" "images/chineseflag.jpg" }}</a></li>
+                <li class="nav-item text-center"><a title="chinese" hreflang="{{ .Lang }}" class="nav-link text-primary px-4" href="{{ .RelPermalink }}">{{ partial "utilities/imageflag.html" "images/chineseflag.jpg" }}</a></li>
               {{ end }}
             {{ end }}
           {{ end }}
@@ -36,7 +48,7 @@
       <ul class="navbar-nav ms-xl-3 mb-2 mb-xl-0">
         {{ range .Site.Menus.buttons }}
           <li class="nav-item">
-            <a class="nav-link btn btn-primary text-light px-4" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-link btn btn-primary text-light px-4" href="{{.URL | absLangURL}}">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>
