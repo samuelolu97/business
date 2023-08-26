@@ -5,9 +5,7 @@
     <h3 class=" container text-center hero-title fw-bold display-6 text-tertiary text-center pb-5">{{ . | markdownify }}</h3>
   {{ end }}
   <div class="container bg-red-500">
-    {{ with .Params.description }}
-    <p class="text-black-10 text-center pb-5">{{ . }}</p>
-  {{ end }}
+   
     <div class="row flex-column flex-xl-row-reverse">
       <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
         {{ partial "utilities/image-fluid" "images/svg4.png" }}
