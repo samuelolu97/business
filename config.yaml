@@ -44,7 +44,7 @@ taxonomies:
 
 DefaultContentLanguage: ch
 
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 languages:
   en:
