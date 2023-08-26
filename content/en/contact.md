@@ -1,5 +1,5 @@
 ---
-title: 'contact us'
+title: 'Contact Us'
 button: 'About us'
 weight: 2
 ---
